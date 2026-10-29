@@ -2,8 +2,8 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Giovanna-annavoiG/chaveia?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Giovanna-annavoiG/chaveia?style=for-the-badge)
-![GitHub open issues](https://img.shields.io/github/Giovanna-annavoiG/chaveia?style=for-the-badge)
-![GitHub open pull requests](https://img.shields.io/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub open issues](https://img.shields.io/github/issues/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr/Giovanna-annavoiG/chaveia?style=for-the-badge)
 
 
 > CHAVEIA é uma plataforma web de fricção zero para organização e chaveamento de esportes de areia na orla da Baixada Santista. O sistema automatiza torneios e conecta atletas avulsos a partidas com vagas abertas sem necessidade de cadastros extensos.
