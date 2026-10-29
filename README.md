@@ -1,36 +1,37 @@
-# Chaveia
-# A sua plataforma de esportes na areia
+# CHAVEIA
 
-**Desenvolvido por:** Giovanna De Campos Gomes Cardim
+![GitHub repo size](https://img.shields.io/github/repo-size/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub open issues](https://img.shields.io/github/issues/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr/Giovanna-annavoiG/chaveia?style=for-the-badge)
 
-## A Problemática 
-A organização de jogos na praia costuma ser bastante frustrante. Organizadores amadores ainda dependem de pranchetas de papel que estragam facilmente com o vento e a maresia, ou tentam usar aplicativos genéricos que são pesados e difíceis de manusear sob o sol. 
+> CHAVEIA é uma plataforma web de fricção zero para organização e chaveamento de esportes de areia na orla da Baixada Santista. O sistema automatiza torneios e conecta atletas avulsos a partidas com vagas abertas sem necessidade de cadastros extensos.
 
-Além da burocracia, existe a dor de cabeça constante com partidas canceladas de última hora por falta de jogadores. A busca por substitutos acaba se perdendo em meio ao caos de dezenas de grupos de mensagens.
+## Ajustes e melhorias
 
-## A Nossa Solução
-Nasce então o **CHAVEIA**. O objetivo é entregar uma plataforma web responsiva com *fricção zero*. A ideia é eliminar as barreiras logísticas diretamente na areia, automatizando as tabelas de jogos e conectando os jogadores de forma instantânea para promover a ocupação saudável dos espaços públicos.
+O projeto está em desenvolvimento ativo e as próximas etapas compreendem as seguintes tarefas:
 
-## Escopo e Funcionalidades do MVP
-O sistema central do projeto funciona com um **Algoritmo de chaveamento reativo automático**. Isso permite que todos os envolvidos acompanhem as chaves ao vivo através de um simples Link ou QR Code, descartando totalmente a necessidade de preencher formulários longos de cadastro.
+- [x] Estruturação da documentação e Wiki oficial do projeto
+- [ ] Criação das telas da interface em HTML5 e CSS3 (PWA Mobile-First)
+- [ ] Modelagem e implementação do banco de dados MySQL
+- [ ] Desenvolvimento do algoritmo de chaveamento reativo em Python
+- [ ] Integração com o mural público de desfalques e API oceanográfica
 
-Para resolver a falta de jogadores, a plataforma conta com um **Mural público de desfalques geolocalizado**. Ele exibe quais praias têm partidas com vagas abertas no momento. 
+## Pré-requisitos
 
-> A conexão é feita de forma nativa e direta: o atleta avulso clica na vaga que deseja e o sistema o redireciona automaticamente para o WhatsApp do organizador.
+Antes de começar, certifique-se de preencher os seguintes requisitos:
 
-## Nossos Diferenciais
-Toda a plataforma foi desenhada sob a filosofia de atrito mínimo. As ações principais precisam ser concluídas em poucos cliques, sem barreiras de login e sem anúncios obstrutivos.
+1. Possuir o Python 3.10 ou superior e o banco de dados MySQL instalados na máquina de desenvolvimento.
+2. Compatível com sistemas operacionais Windows, Linux e macOS para desenvolvimento, e navegadores web móveis (Android/iOS) para execução.
+3. Leitura prévia da documentação técnica disponível na aba Wiki deste repositório.
 
-Outro destaque é o **Design Solar**. Criamos uma interface com uma paleta de cores de altíssimo contraste, projetada especificamente para garantir uma leitura perfeita mesmo sob a forte luz do sol na praia. Tudo isso integrado ao WhatsApp, conectando as pessoas nos canais que elas já utilizam todos os dias.
+## Instalando CHAVEIA
 
-## Tecnologias Definidas
-A base do projeto está sendo construída com foco em acessibilidade e desempenho. 
+Para clonar e configurar o repositório localmente, siga os passos abaixo:
 
-**Front-end:** Estruturado em HTML5, CSS3 e JavaScript, seguindo o modelo PWA Mobile-First para funcionar perfeitamente em celulares.
-**Back-end:** Python para gerenciar as regras de negócio e a inteligência do algoritmo de chaves, conectando tudo a um banco de dados MySQL para garantir que as informações das partidas fiquem salvas com segurança.
+Linux e macOS:
 
-## Próximos Passos
-O desenvolvimento visual em HTML e CSS
-
-
-Plataforma web para organização e chaveamento de esportes de areia.
+```bash
+git clone [https://github.com/Giovanna-annavoiG/chaveia.git](https://github.com/Giovanna-annavoiG/chaveia.git)
+cd chaveia
