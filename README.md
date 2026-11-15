@@ -1,16 +1,66 @@
-# React + Vite
+# CHAVEIA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub repo size](https://img.shields.io/github/repo-size/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub open issues](https://img.shields.io/github/issues/Giovanna-annavoiG/chaveia?style=for-the-badge)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr/Giovanna-annavoiG/chaveia?style=for-the-badge)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> CHAVEIA é uma plataforma web de fricção zero para organização e chaveamento de esportes de areia na orla da Baixada Santista. O sistema automatiza torneios e conecta atletas avulsos a partidas com vagas abertas sem necessidade de cadastros extensos.
 
-## React Compiler
+## Ajustes e melhorias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto está em desenvolvimento ativo e as próximas etapas compreendem as seguintes tarefas:
 
-## Expanding the ESLint configuration
+- [x] Estruturação da documentação e MVP
+- [x] Repositório, padrões de commits e branches e ambiente de desenvolvimento (React + Vite + Supabase)
+- [ ] Criação das telas da interface em React (PWA Mobile-First)
+- [ ] Modelagem e implementação do banco de dados PostgreSQL no Supabase
+- [ ] Desenvolvimento do algoritmo de chaveamento reativo
+- [ ] Integração com o mural público de desfalques e API oceanográfica
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pré-requisitos
+
+Antes de começar, certifique-se de preencher os seguintes requisitos:
+
+1. Possuir o Node.js (versão LTS), o npm e o Git instalados na máquina de desenvolvimento, e uma conta gratuita no Supabase para criar o seu próprio projeto.
+2. Compatível com sistemas operacionais Windows, Linux e macOS para desenvolvimento, e navegadores web móveis (Android/iOS) para execução.
+3. Leitura prévia da documentação técnica.
+
+## Instalando CHAVEIA
+
+Para clonar e configurar o repositório localmente, siga os passos abaixo:
+
+Linux e macOS:
+```bash
+git clone https://github.com/Giovanna-annavoiG/chaveia.git
+cd chaveia
+npm install
+cp .env.example .env
+npm run dev
+```
+Windows:
+```powershell
+git clone https://github.com/Giovanna-annavoiG/chaveia.git
+cd chaveia
+npm install
+Copy-Item .env.example .env
+npm run dev
+```
+
+Antes do `npm run dev`, abra o arquivo `.env` e preencha a URL e a chave pública do seu projeto Supabase. Esse arquivo contém credenciais e nunca deve ser enviado ao GitHub (já está no `.gitignore`).
+
+---
+## Contribuindo para CHAVEIA
+
+Para contribuir com Chaveia, siga estas etapas:
+
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_branch>`
+5. Crie a solicitação de pull.
+
+Os padrões de nomes de branches e de mensagens de commit estão em [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
