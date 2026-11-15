@@ -32,12 +32,12 @@ Para clonar e configurar o repositório localmente, siga os passos abaixo:
 
 Linux e macOS:
 ```bash
-git clone [https://github.com/Giovanna-annavoiG/chaveia.git](https://github.com/Giovanna-annavoiG/chaveia.git)
+git clone (https://github.com/Giovanna-annavoiG/chaveia.git)
 cd chaveia
 ```
 Windows:
 ```powershell
-git clone [https://github.com/Giovanna-annavoiG/chaveia.git](https://github.com/Giovanna-annavoiG/chaveia.git)
+git clone (https://github.com/Giovanna-annavoiG/chaveia.git)
 cd chaveia
 ```
 
