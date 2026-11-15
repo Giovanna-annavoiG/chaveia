@@ -14,3 +14,4 @@ e o projeto adota o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 - Projeto base com React e Vite.
 - Cliente do Supabase e modelo de variáveis de ambiente (`.env.example`).
 - Estrutura de pastas em `src` (components, pages, services, styles, utils).
+- ADR 0001 com a decisão da stack tecnológica.
