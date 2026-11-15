@@ -1,17 +1,29 @@
-# Arquivos de sistema operacional
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# Configurações de editores de código
-.vscode/
-.idea/
-
-# Ambientes virtuais e cache do Python
-__pycache__/
-*.py[cod]
-venv/
-.venv/
-
-# Variáveis de ambiente e senhas
+# Environment variables (secrets: never commit)
 .env
-.env.local
+.env.*
+!.env.example
