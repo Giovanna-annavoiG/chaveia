@@ -1,56 +1,16 @@
-# CHAVEIA
+# React + Vite
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Giovanna-annavoiG/chaveia?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Giovanna-annavoiG/chaveia?style=for-the-badge)
-![GitHub open issues](https://img.shields.io/github/issues/Giovanna-annavoiG/chaveia?style=for-the-badge)
-![GitHub open pull requests](https://img.shields.io/github/issues-pr/Giovanna-annavoiG/chaveia?style=for-the-badge)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-> CHAVEIA é uma plataforma web de fricção zero para organização e chaveamento de esportes de areia na orla da Baixada Santista. O sistema automatiza torneios e conecta atletas avulsos a partidas com vagas abertas sem necessidade de cadastros extensos.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Ajustes e melhorias
+## React Compiler
 
-O projeto está em desenvolvimento ativo e as próximas etapas compreendem as seguintes tarefas:
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- [x] Estruturação da documentação e MVP
-- [ ] Criação das telas da interface em HTML5 e CSS3 (PWA Mobile-First)
-- [ ] Modelagem e implementação do banco de dados MySQL
-- [ ] Desenvolvimento do algoritmo de chaveamento reativo em Python
-- [ ] Integração com o mural público de desfalques e API oceanográfica
+## Expanding the ESLint configuration
 
-## Pré-requisitos
-
-Antes de começar, certifique-se de preencher os seguintes requisitos:
-
-1. Possuir o Python 3.10 ou superior e o banco de dados MySQL instalados na máquina de desenvolvimento.
-2. Compatível com sistemas operacionais Windows, Linux e macOS para desenvolvimento, e navegadores web móveis (Android/iOS) para execução.
-3. Leitura prévia da documentação técnica.
-
-## Instalando CHAVEIA
-
-Para clonar e configurar o repositório localmente, siga os passos abaixo:
-
-Linux e macOS:
-```bash
-git clone (https://github.com/Giovanna-annavoiG/chaveia.git)
-cd chaveia
-```
-Windows:
-```powershell
-git clone (https://github.com/Giovanna-annavoiG/chaveia.git)
-cd chaveia
-```
-
----
-## Contribuindo para CHAVEIA
-
-Para contribuir com Chaveia, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_branch>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
