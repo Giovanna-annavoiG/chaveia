@@ -11,3 +11,6 @@ e o projeto adota o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 - Repositório criado com README e .gitignore.
 - Padrões de branches e commits documentados em CONTRIBUTING.md.
 - Este CHANGELOG.git add CHANGELOG.md
+- Projeto base com React e Vite.
+- Cliente do Supabase e modelo de variáveis de ambiente (`.env.example`).
+- Estrutura de pastas em `src` (components, pages, services, styles, utils).
