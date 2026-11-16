@@ -29,26 +29,13 @@ Antes de começar, certifique-se de preencher os seguintes requisitos:
 
 ## Instalando CHAVEIA
 
-Para clonar e configurar o repositório localmente, siga os passos abaixo:
+Para clonar e configurar o repositório localmente, siga os passos abaixoLinux e macOS:
 
-Linux e macOS:
-```bash
 git clone https://github.com/Giovanna-annavoiG/chaveia.git
 cd chaveia
 npm install
 cp .env.example .env
 npm run dev
-```
-Windows:
-```powershell
-git clone https://github.com/Giovanna-annavoiG/chaveia.git
-cd chaveia
-npm install
-Copy-Item .env.example .env
-npm run dev
-```
-
-Antes do `npm run dev`, abra o arquivo `.env` e preencha a URL e a chave pública do seu projeto Supabase. Esse arquivo contém credenciais e nunca deve ser enviado ao GitHub (já está no `.gitignore`).
 
 ---
 ## Contribuindo para CHAVEIA
