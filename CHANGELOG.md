@@ -15,3 +15,4 @@ e o projeto adota o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 - Cliente do Supabase e modelo de variáveis de ambiente (`.env.example`).
 - Estrutura de pastas em `src` (components, pages, services, styles, utils).
 - ADR 0001 com a decisão da stack tecnológica.
+- Documento de requisitos funcionais e não funcionais (`docs/requirements.md`).
